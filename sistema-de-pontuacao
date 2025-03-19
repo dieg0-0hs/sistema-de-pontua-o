@@ -1,6 +1,0 @@
-sistemaDePontuação = prompt('Escolha qualquer número!')
-if(sistemaDePontuação >= 100){
-    alert(`Parábens, você venceu! Sua pontuação foi de ${sistemaDePontuação}!! `)
-} else{
-    alert('Tente novamente para ganhar')
-}

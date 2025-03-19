@@ -1,0 +1,41 @@
+
+sistemaDePontuação = prompt('Escolha qualquer número!')
+if(sistemaDePontuação >= 100){
+    alert(`Parábens, você venceu! Sua pontuação foi de ${sistemaDePontuação}!! `)
+} else{
+    alert('Tente novamente para ganhar')
+}
+
+
+
+//----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+diaDaSemana = prompt('Qual é o dia da semana??');
+if(diaDaSemana == 'Sábado'){
+    alert('Bom fim de semana!');
+} else if (diaDaSemana == 'Domingo'){
+    alert('Bom fim de semana');
+} else{
+    alert('Boa semana!')
+}
+
+//----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+let saldoDaConta = 500;
+alert(`Seu saldo disponível na sua conta é ${saldoDaConta}`)
+
+//--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+nome = prompt('Qual seu nome??')
+alert(`Seja bem-vindo ${nome}.`)
+desejo = prompt(' O que você deseja fazer em nosso site?')
+alert(`Felizmente nosso site consegue fazer tudo no alcance da internet!`)
+
+//----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+numero = prompt('Digite um número positivo ou negativo')
+if(numero > 0){
+    alert('Eu vou adivinhar o número...É positivo!')
+} else{
+    alert('Eu vou adivinhar o número...É negativo')
+}
